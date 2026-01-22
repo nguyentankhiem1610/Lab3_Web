@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+thead th {
+    background: #888;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background: green;
+    color: red;
+    font-style: italic;
+}
+
+tbody tr:nth-child(odd) input {
+    background: green;
+    color: red;
+    font-style: italic;
+}
+
+tbody tr:nth-child(even) {
+    background: yellow;
+    color: blue;
+    font-style: italic;
+}
+
+tbody tr:nth-child(even) input {
+    background: yellow;
+    color: blue;
+    font-style: italic;
+}
